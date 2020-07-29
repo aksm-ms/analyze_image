@@ -3,8 +3,8 @@ from azure.cosmos import exceptions, CosmosClient, PartitionKey
 
 
 def initialize():
-    endpoint = "https://dpass-cosmos-db.documents.azure.com"
-    key = 'bl4lHN4NJxWT1M9M8ia7TVkPY6IBvgETNIuIuCp0m47i8rzSTDZfbi25i9FSxUHbSHWPRhVeTYREMwMPQmbjSQ=='
+    endpoint = "<cosmos db endpoint>"
+    key = '<db key>'
     client = CosmosClient(endpoint, key)
 
     database_name = 'image-data'
