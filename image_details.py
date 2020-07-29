@@ -2,8 +2,8 @@ import requests
 
 
 def get_image_details(image_data):
-    subscription_key = "ca22d05f88ff4261ac3e4138a44472ce"
-    endpoint = "https://eastus.api.cognitive.microsoft.com/"
+    subscription_key = "<your cognitve services sub key>"
+    endpoint = "<your endpoint>"
     analyze_url = endpoint + "vision/v3.0/analyze"
 
     headers = {'Ocp-Apim-Subscription-Key': subscription_key,
