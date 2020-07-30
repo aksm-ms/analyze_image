@@ -3,7 +3,7 @@ import requests
 url = "https://akimageanalysishack.azurewebsites.net/analyze"
 
 files = [
-  ('file', open('C:\\ak\hackathon\YOLO-code\YOLO-Object-Detection\images\horses.jpg','rb'))
+  ('file', open('<your file>','rb'))
 ]
 
 response = requests.request("POST", url, files = files)
