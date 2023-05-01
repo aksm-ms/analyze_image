@@ -1,4 +1,4 @@
-FLASK==1.1.2
+FLASK==2.3.2
 requests==2.24.0
 Pillow==7.2.0
 azure-cosmos==4.0.0
